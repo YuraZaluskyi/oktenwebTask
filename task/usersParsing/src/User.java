@@ -16,9 +16,6 @@ public class User {
     private boolean status;
 
 
-
-
-
     @Override
     public String toString() {
         return "User{" +

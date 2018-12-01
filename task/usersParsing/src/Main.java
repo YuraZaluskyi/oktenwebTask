@@ -71,14 +71,14 @@ public class Main {
         System.out.println("");
         listUsers.getListUsers()
                 .stream()
-                .sorted((o1,o2) -> (o1.getId() - o2.getId()))
+                .sorted((o1, o2) -> (o1.getId() - o2.getId()))
                 .forEach(user -> System.out.println(user));
 
         System.out.println("");
 
         listUsers.getListUsers()
                 .stream()
-                .sorted((o1,o2)->o1.getEmail().compareTo(o2.getEmail()))
+                .sorted((o1, o2) -> o1.getEmail().compareTo(o2.getEmail()))
                 .forEach(user -> System.out.println(user));
 
         System.out.println("");

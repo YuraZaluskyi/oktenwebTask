@@ -41,11 +41,4 @@ public class ListUsers {
                 "listUsers=" + listUsers +
                 '}';
     }
-
-//    public void sortUserById() {
-//        listUsers
-//                .stream()
-//                .sorted((o1,o2) ->o1.getId() - o2.getId())
-//                .forEach(user -> sortUserById());
-//    }
 }
